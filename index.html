@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Doom II - Instant Play</title>
+    <style>
+        /* This makes the game fill the entire screen */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            background-color: black;
+        }
+
+        /* The Iframe acts as the game window */
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <iframe 
+        src="https://archive.org/embed/doom-2-play?ui=embed" 
+        allowfullscreen="true" 
+        webkitallowfullscreen="true" 
+        mozallowfullscreen="true" 
+        scrolling="no">
+    </iframe>
+
+</body>
+</html>
